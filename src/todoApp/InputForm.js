@@ -2,23 +2,14 @@ import { Component } from "react";
 
 class InputForm extends Component {
 
-    State = {
-        currentItem: "",
-    }
-
-    handleChange = (event) => {
-        console.log("input event=", event);
-        this.setState({currentItem: event.target.value});
-    }
-
     render() {
         return (
             <>
-                <form>
+                <form onSubmit = {this.props.HandleNewItemOnSubmit}>
                     <label>New task </label>
-                    <input type="text" placeholder="Add to next task here" onChange= {this.handleChange}/>
+                    <input type="text" placeholder="Add to next task here" value={this.props.currentItem} onChange= {this.props.handleChange}/>
                     <br/>
-                    <button>Add item</button>
+                    <button onClick={this.props.HandleNewItemOnSubmit}>Add item</button>
                 </form>
             </>
         )
