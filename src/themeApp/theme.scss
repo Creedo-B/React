@@ -1,0 +1,26 @@
+// .themeapp__button--whitetheme {
+//     background-color: white;
+//     color: black;
+// }
+
+// .themeapp__button--blacktheme {
+//     background-color: black;
+//     color: white;
+// }
+
+// BEM methodology (of css above)
+
+.themeapp { // Block
+    &__button { // Element
+
+        &--whitetheme { // Modifier
+            background-color: white;
+            color: black;
+        }
+
+        &--blacktheme { // Modifier
+            background-color: black;
+            color: white;
+        }
+    }
+}
