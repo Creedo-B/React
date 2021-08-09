@@ -1,6 +1,7 @@
 import './App.scss';
 import Theme from './themeApp/Theme';
 import Timer from './timerApp/Timer';
+import TimerFun from './timerApp/TimerFun';
 import TodoAppHome from './todoApp/TodoAppHome';
 
 function App() {
@@ -12,6 +13,9 @@ function App() {
 
       {/* Timer App */}
       <Timer/>
+
+      {/* Functional version of the Timer App */}
+      <TimerFun/>
 
       {/* todo List App */}
       <TodoAppHome/>

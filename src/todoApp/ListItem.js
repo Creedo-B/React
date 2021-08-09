@@ -8,8 +8,8 @@ class ListItem extends Component {
                     {this.props.todoItems.map((todoItem)=> <li>{todoItem}</li>)}
                 </ol>
             </>
-        )
-    }
-}
+        );
+    };
+};
 
 export default ListItem;
