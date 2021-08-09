@@ -22,10 +22,10 @@ class Theme extends Component {
 
     render () {
         return(
-            <>
+            <div className='content__child-app'>
                 <h1>Theme App</h1>
                 <button onClick={this.handleSwitchTheme}>Switch theme</button>
-            </>
+            </div>
         )
     }
 }

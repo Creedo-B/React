@@ -19,10 +19,10 @@ class Timer extends Component {
 
     render() {
         return (
-        <>
+        <div className='content__child-app'>
             <h1>Timer App</h1>
             <div>Seconds Elapsed : {this.state.seconds}</div>
-        </>
+        </div>
         );
     }
 }
