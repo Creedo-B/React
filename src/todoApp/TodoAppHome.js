@@ -10,7 +10,7 @@ class TodoAppHome extends Component {
     }
 
     handleChange = (event) => {
-        console.log("input event=", event);
+        console.log("input event: ", event);
         this.setState({currentItem: event.target.value});
     }
 
