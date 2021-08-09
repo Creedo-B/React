@@ -1,0 +1,10 @@
+.themeapp__button--whitetheme {
+    background-color: white;
+    color: black;
+}
+
+.themeapp__button--blacktheme {
+    background-color: black;
+    color: white;
+}
+
