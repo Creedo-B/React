@@ -6,6 +6,7 @@ import TodoAppHome from './todoApp/TodoAppHome';
 import {BrowserRouter, Route} from 'react-router-dom';
 import SideNav from './common/SideNav';
 import Home from './common/Home';
+import CovidDashboard from './covid-tracker/CovidDashboard';
 
 function App() {
   return (
@@ -37,6 +38,10 @@ function App() {
         <Route path="/todo">
           {/* todo List App */}
           <TodoAppHome/>
+        </Route>
+
+        <Route path='/covid-tracker'>
+          <CovidDashboard/>
         </Route>
 
     </div>
