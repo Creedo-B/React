@@ -8,7 +8,7 @@ const SideNav = () => {
                 <li><Link to='/theme'>Theme App</Link></li>
                 <li><Link to='/timer'>Timer App</Link></li>
                 <li><Link to='/todo'>Todo App</Link></li>
-
+                <li><Link to='/covid-tracker'>Covid Tracker</Link></li>
             </ul>
         </nav>
     )
